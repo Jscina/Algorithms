@@ -1,4 +1,4 @@
-from algorithms.main import MatrixMultiplication, generate_random_matrix
+from algorithms.matrix_mult import MatrixMultiplication, generate_random_matrix
 import numpy as np
 
 

@@ -9,7 +9,7 @@ def MatrixMultiplication(A: list[list[int]], B: list[list[int]]) -> list[list[in
     """Multiplies two matrices A and B and counts the basic operations being performed."""
     global op_count
     # Init the result matrix with same dimensions as A and B, filled with 0s
-    C = [[0 for _ in range(len(B[0]))] for _ in range(len(A))]
+    C = [[0 for _ in range(len(A))] for _ in range(len(A))]
     for i in range(len(A)):
         for j in range(len(A[0])):
             C[i][j] = 0  # First basic operation, redundant, but it's in the pseudocode
